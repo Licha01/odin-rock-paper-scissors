@@ -1,0 +1,70 @@
+body {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 100rem;
+  height: 60rem;
+  padding: 30px;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont1,
+.cont2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px;
+}
+
+.cont3 {
+  display: flex;
+  padding: 4rem;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.player {
+  flex: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+}
+
+button {
+  border: 3px solid black;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  margin: 80px;
+
+  background-color: white;
+  backdrop-filter: blur(10px);
+}
+
+.score {
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.match {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
